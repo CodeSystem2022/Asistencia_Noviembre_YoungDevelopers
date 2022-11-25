@@ -1,0 +1,40 @@
+Diaz Micaela
+package Ejercicios;
+
+import java.util.Scanner;
+//crear una matriz 3x3,transponerla y mostrarla
+
+public class Ejercicio1Matriz {
+    public static void main(String[] args) {
+        Scanner ingreso = new Scanner(System.in);
+        int matriz[][] = new int[3][3];
+      
+        //recorremos y cambiamos filas y columnas
+        for (int f = 0; f < 3; f++) {
+            for (int c = 0; c < 3; c++) {
+                System.out.print("Matriz ["+f+"]["+c+"]: ");
+                matriz[f][c]= ingreso.nextInt();
+            }
+              System.out.println();
+        }
+      
+        //matriz original mostramos
+        System.out.println("Matriz original: ");
+        for (int f = 0; f < 3; f++) {
+            for (int c = 0; c < 3; c++) {
+                System.out.print(matriz[f][c]+ " ");  
+            }
+            System.out.println();
+        }
+        //matriz transpuesta
+        System.out.println("Matriz transpuesta");
+        for (int f = 0; f < 3; f++) {
+            for (int c = 0; c < 3; c++) {
+                System.out.print( matriz[c][f]+" ");
+            }
+            System.out.println();
+        }
+        
+    }
+           
+}
