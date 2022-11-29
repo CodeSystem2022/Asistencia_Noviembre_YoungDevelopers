@@ -56,6 +56,6 @@ print(persona1)
 persona2 = Persona('Osvaldo', 45)
 print(persona2)
 persona3 = Persona('Liliana', 35)
-print(persona3bbbb
+print(persona3)
 print(f'Valor contador personas: {Persona.contador_personas}')
 --------------------------------------------------------------------------------------------------------------------------------------
