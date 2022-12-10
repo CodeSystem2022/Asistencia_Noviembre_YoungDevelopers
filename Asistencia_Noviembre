@@ -88,3 +88,41 @@ public class Ejercicio1 {
     }
 }
 --------------------------------------------------------------------------------------------------------------------------------------
+
+Lujan Rebolledo
+
+/*
+Ejercicio 4: Crear una matriz de tamaño 7x7 y rellenarla de forma que los elementos de la diagonal
+principal sean 1 y el resto 0.
+*/
+paquete  ejercicio4 ;
+
+importar  Java . útil _ escáner ;
+
+ clase  pública Ejercicio4 {
+
+    public  static  void  main ( String [] args ) {
+        Scanner  entrada = nuevo  Scanner ( System . in );
+        int  matriz [][] = new  int [ 7 ][ 7 ];
+        
+        //Llenando la matriz
+        para ( int  i = 0 ; i < 7 ; i ++) {
+            para ( int  j = 0 ; j < 7 ; j ++) {
+                si ( yo == j ) {
+                    matriz [ i ][ j ] = 1 ;  
+                }
+                más {
+                    matriz [ i ][ j ] = 0 ;
+                }
+            }
+        }
+        sistema _ fuera _ println ( "\nMostrnado matriz completa:" );
+        para ( int  i = 0 ; i < 7 ; i ++) {
+            para ( int  j = 0 ; j < 7 ; j ++) {
+                sistema _ fuera _ imprimir ( matriz [ i ][ j ]+ " " );
+            }
+            sistema _ fuera _ println ( "" );
+        }
+        sistema _ fuera _ println ( "" );
+    }  
+}
