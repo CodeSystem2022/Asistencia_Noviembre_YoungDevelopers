@@ -183,4 +183,27 @@ public class Arreglos_Ejercicio_3 {
         //Ingresar: 2, -5, 6, -2, 0
     }  
 }
+--------------------------------------------------------------------------------------------------------------------------------------
+Agustín Ceschin
+// Ejercicio de objetos usando ArrayList
+
+import java.util.ArrayList;
+public class App {
+
+    public static void main(String[] args) {
+
+        ArrayList<String> YoungDevelopers = new ArrayList<String>();
+        YoungDevelopers.add("Ceschin Agustín");
+        YoungDevelopers.add("Diaz Micaela");
+        YoungDevelopers.add("Montoya Lucas");
+        YoungDevelopers.add("Morbidelli Valentin");
+        YoungDevelopers.add("Rebolledo Lourdes");
+        YoungDevelopers.add("Rebolledo Lujan");
+        YoungDevelopers.add("Zambrana Ana");
+        System.out.println("Integrantes del grupo YoungDevelopers:\n"
+                +YoungDevelopers);
+    }
+}
+--------------------------------------------------------------------------------------------------------------------------------------
+
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
